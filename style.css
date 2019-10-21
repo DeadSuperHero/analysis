@@ -894,7 +894,7 @@ aside#secondary {
 
 .post, .page {
 	max-width: 70%;
-	margin-left: 10%;
+	margin-left: 10% !important;
 }
 
 /*--------------------------------------------------------------
