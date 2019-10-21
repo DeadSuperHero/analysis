@@ -620,9 +620,34 @@ header#masthead {
 
 .custom-logo-link {
     display: inline-block;
-    width: 50%;
+    width: 25%;
 }
 
+.site-branding {
+	display: inline-block;
+	vertical-align: middle;
+	width: 69%;
+}
+
+nav#side-navigation {
+	display: inline-block !important;
+	float: none !important;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.main-navigation a:hover {
+	text-decoration: underline;
+}
 
 /*--------------------------------------------------------------
 ## Links
