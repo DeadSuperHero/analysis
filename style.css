@@ -616,7 +616,7 @@ header#masthead {
 	background: #888;
 	position: fixed;
 	width: 100%;
-	top: 30px;
+	top: 0;
 	left: 0;
 }
 
