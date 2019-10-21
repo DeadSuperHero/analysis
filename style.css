@@ -877,7 +877,7 @@ a:hover, a:active {
 # Content
 --------------------------------------------------------------*/
 #content {
-	margin-top 6em;
+	margin-top: 6em;
 }
 
 #primary.content-area {
