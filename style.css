@@ -616,6 +616,7 @@ header#masthead {
 	background: #888;
 	position: fixed;
 	width: 100%;
+	top: 30px;
 }
 
 .custom-logo-link {
@@ -828,6 +829,7 @@ a:hover, a:active {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -874,6 +876,27 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+#content {
+	margin-top 6em;
+}
+
+#primary.content-area {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside#secondary {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.post, .page {
+	max-width: 70%;
+	margin-left: 10%;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
