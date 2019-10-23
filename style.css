@@ -622,7 +622,7 @@ header#masthead {
 
 .custom-logo-link {
     display: inline-block;
-    width: 300px;
+    max-width: 300px;
 }
 
 .site-branding {
