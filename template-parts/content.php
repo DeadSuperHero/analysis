@@ -20,6 +20,9 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
+
+			<?php analysis_post_thumbnail(); ?>
+
 			<div class="entry-meta">
 				<?php
 				analysis_posted_on();
@@ -28,8 +31,6 @@
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-	<?php analysis_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
