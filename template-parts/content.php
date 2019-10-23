@@ -52,9 +52,9 @@
 			'after'  => '</div>',
 		) );
 		?>
-	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php analysis_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+		<footer class="entry-footer">
+			<?php analysis_entry_footer(); ?>
+		</footer><!-- .entry-footer -->
+	</div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

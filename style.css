@@ -898,6 +898,16 @@ aside#secondary {
 	margin-left: 10% !important;
 }
 
+span.tag_links a {
+	background: #cacaca;
+	padding: 5px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: 800;
+	color: #fff;
+	margin: 2px;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
