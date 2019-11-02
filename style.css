@@ -796,6 +796,10 @@ a:hover, a:active {
         vertical-align: top;
     }
 
+		#comments {
+			margin: 5%;
+		}
+
 }
 
 .site-main .comment-navigation, .site-main
