@@ -770,8 +770,11 @@ a:hover, a:active {
 @media screen and (max-width: 530px) {
 
 		h1.entry-title {
-			margin-left: 3%;
-			margin-right: 3%;
+			margin-left: 2%;
+			margin-right: 2%;
+			font-size: 36px;
+			font-weight: 200;
+			margin-bottom: 1%;
 		}
 
     .post, .page {
