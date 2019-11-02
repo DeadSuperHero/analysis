@@ -415,7 +415,12 @@ dfn, cite, em, i {
 }
 
 blockquote {
-	margin: 0 1.5em;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #717070;
+	background: #e3fff8;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 address {
@@ -774,8 +779,9 @@ a:hover, a:active {
     }
 
 		.entry-content {
-			margin-left: 5%;
-    	margin-right: 5%;
+			margin-left: 10px !important;
+			margin-top: 0 !important;
+			margin-right: 10px !important;
 		}
 
     #primary.content-area {
