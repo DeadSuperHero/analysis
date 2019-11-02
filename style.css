@@ -744,6 +744,25 @@ a:hover, a:active {
 	}
 }
 
+@media screen and (max-width: 530px) {
+
+    .post, .page {
+        max-width: none;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    #primary.content-area {
+        display: block;
+    }
+
+    aside#secondary {
+        display: block;
+        vertical-align: top;
+    }
+
+}
+
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
