@@ -742,6 +742,24 @@ a:hover, a:active {
 	.main-navigation ul {
 		display: block;
 	}
+
+	.post, .page {
+		max-width: 70%;
+		margin-left: 10% !important;
+	}
+
+	#primary.content-area {
+		width: 70%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	aside#secondary {
+		width: 20%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
 }
 
 @media screen and (max-width: 530px) {
@@ -898,23 +916,6 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 #content {
 	margin-top: 6em;
-}
-
-#primary.content-area {
-	width: 70%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-aside#secondary {
-	width: 20%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.post, .page {
-	max-width: 70%;
-	margin-left: 10% !important;
 }
 
 span.tags-links a {
