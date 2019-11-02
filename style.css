@@ -800,6 +800,10 @@ a:hover, a:active {
 			margin: 5%;
 		}
 
+		.post-navigation {
+			margin: 2%;
+		}
+
 }
 
 .site-main .comment-navigation, .site-main
@@ -936,7 +940,7 @@ a:hover, a:active {
 # Content
 --------------------------------------------------------------*/
 #content {
-	margin-top: 6em;
+	margin-top: 3em;
 }
 
 span.tags-links a {
