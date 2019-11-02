@@ -764,11 +764,19 @@ a:hover, a:active {
 
 @media screen and (max-width: 530px) {
 
+		h1.entry-title {
+			margin-left: 3%;
+			margin-right: 3%;
+		}
+
     .post, .page {
         max-width: none;
-        margin-left: 10% !important;
-        margin-right: 10% !important;
     }
+
+		.entry-content {
+			margin-left: 5%;
+    	margin-right: 5%;
+		}
 
     #primary.content-area {
         display: block;
