@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="article_insert">
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
@@ -57,4 +58,5 @@
 			<?php analysis_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
 	</div><!-- .entry-content -->
+</div>
 </article><!-- #post-<?php the_ID(); ?> -->
