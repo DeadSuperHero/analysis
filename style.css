@@ -942,6 +942,15 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 #content {
 	margin-top: 3em;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQImWPYsXnR/yvn98IxAzIHRQCmEkMFAAnlNUtwAATNAAAAAElFTkSuQmCC) repeat;
+}
+
+.entry-content {
+	padding: 1em;
+}
+
+.post, .page {
+	background: #fff;
 }
 
 span.tags-links a {
