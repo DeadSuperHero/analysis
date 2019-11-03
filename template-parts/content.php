@@ -53,10 +53,12 @@
 				'after'  => '</div>',
 			) );
 			?>
-
-			<?php
-				comments_template();
-			?>
+			
+			<footer class="entry-footer">
+						<?php
+							comments_template();
+						?>
+			</footer>
 
 		</div><!-- .entry-content -->
 	</div>
