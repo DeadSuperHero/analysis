@@ -953,6 +953,17 @@ a:hover, a:active {
 	background: #fff;
 }
 
+aside#secondary {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	padding: 1em;
+	margin-top: 1em;
+	border: 1px solid #7d7b7b;
+	border-radius: 5px;
+}
+
 span.tags-links a {
 	background: #b3b1b1;
 	padding: 5px;
