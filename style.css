@@ -941,12 +941,19 @@ a:hover, a:active {
 # Content
 --------------------------------------------------------------*/
 #content {
-	margin-top: 3em;
+	padding-top: 6em;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQImWPYsXnR/yvn98IxAzIHRQCmEkMFAAnlNUtwAATNAAAAAElFTkSuQmCC) repeat;
 }
 
 .entry-content {
 	padding: 1em;
+}
+
+h1.entry-title {
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 36px;
+	font-weight: 200;
 }
 
 .post {
