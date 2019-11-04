@@ -756,6 +756,17 @@ a:hover, a:active {
 		margin-left: 10% !important;
 	}
 
+	.entry-meta {
+		position: absolute;
+		bottom: 12em;
+		left: 8em;
+		background: #00000087;
+		padding: 10px;
+		color: #fff;
+		border-radius: 5px;
+		margin-left: 1em;
+	}
+
 	#primary.content-area {
 		width: 70%;
 		display: inline-block;
@@ -769,7 +780,7 @@ a:hover, a:active {
 	}
 
 	h1.entry-title {
-		margin-left: 20px;
+		margin-left: 15px;
 		font-size: 60px;
 		font-weight: 200;
 		position: absolute;
@@ -792,6 +803,17 @@ a:hover, a:active {
 			color: #fff;
 			max-width: 90%;
 			line-height: 45px;
+		}
+
+		.entry-meta {
+			position: absolute;
+			top: 17em;
+			left: 0em;
+			background: #00000087;
+			padding: 10px;
+			color: #fff;
+			border-radius: 5px;
+			margin-left: 1em;
 		}
 
     .post, .page {
@@ -974,12 +996,6 @@ a:hover, a:active {
 .mks_author_widget {
     margin: 0;
     text-align: center;
-}
-
-.entry-meta {
-	text-align: right;
-	margin-right: 1em;
-	margin-bottom: 1em;
 }
 
 .post_tags {
