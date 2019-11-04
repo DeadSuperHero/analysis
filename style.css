@@ -957,13 +957,17 @@ a:hover, a:active {
     text-align: center;
 }
 
-.post-tags {
+.post_tags {
 	border-top: 1px solid #ddd;
 	padding-top: 10px;
 	margin-bottom: 0;
 }
 
-.post-tags a {
+.post_tags h2 {
+	display: none;
+}
+
+.post_tags a {
 	background: #aaa;
 	padding: 5px;
 	border-radius: 5px;
@@ -972,7 +976,7 @@ a:hover, a:active {
 	font-weight: 800;
 }
 
-.post-tags a:hover {
+.post_tags a:hover {
 	background: #7d7d7d;
 	color: #fff;
 	text-decoration: none;
