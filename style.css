@@ -957,6 +957,12 @@ a:hover, a:active {
     text-align: center;
 }
 
+.entry-meta {
+	text-align: right;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
 .post_tags {
 	border-top: 1px solid #ddd;
 	padding-top: 10px;
