@@ -947,8 +947,8 @@ a:hover, a:active {
 }
 
 .mks_author_widget img {
-    float: none;
-    margin: 0;
+    float: none !important;
+    margin: 0 !important;
 		border-radius: 6em;
 }
 
