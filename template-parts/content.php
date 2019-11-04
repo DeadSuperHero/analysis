@@ -22,14 +22,14 @@
 			if ( 'post' === get_post_type() ) :
 				?>
 
-				<?php analysis_post_thumbnail(); ?>
-
 				<div class="entry-meta">
 					<?php
 					analysis_posted_on();
 					analysis_posted_by();
 					?>
 				</div><!-- .entry-meta -->
+
+				<?php analysis_post_thumbnail(); ?>
 			<?php endif; ?>
 		</header><!-- .entry-header -->
 
@@ -53,7 +53,7 @@
 				'after'  => '</div>',
 			) );
 			?>
-			
+
 			<footer class="entry-footer">
 						<?php
 							comments_template();
