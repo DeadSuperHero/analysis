@@ -26,7 +26,7 @@ if ( ! function_exists( 'analysis_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x('post date', 'analysis' ),
+			esc_html_x( '%s', 'post date', 'analysis' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
