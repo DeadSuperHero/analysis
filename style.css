@@ -624,6 +624,7 @@ header#masthead {
 	left: 0;
 	background-image: linear-gradient(#a2a2a2 10%, #848484 90%);
 	box-shadow: 0px 1px 1px #4f4e4e;
+	z-index: 1000;
 }
 
 .custom-logo-link {
@@ -767,16 +768,30 @@ a:hover, a:active {
 		vertical-align: top;
 	}
 
+	h1.entry-title {
+		margin-left: 20px;
+		font-size: 60px;
+		font-weight: 200;
+		position: absolute;
+		top: 1em;
+		color: #fff;
+		max-width: 48%;
+		line-height: 70px;
+	}
+
 }
 
 @media screen and (max-width: 530px) {
 
 		h1.entry-title {
-			margin-left: 2%;
-			margin-right: 2%;
-			font-size: 36px;
+			margin-left: 20px;
+			font-size: 40px;
 			font-weight: 200;
-			margin-bottom: 1%;
+			position: absolute;
+			top: 2em;
+			color: #fff;
+			max-width: 90%;
+			line-height: 45px;
 		}
 
     .post, .page {
@@ -941,6 +956,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.article-begin {
+	z-index: 0;
+}
+
 #content {
 	padding-top: 6em;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQImWPYsXnR/yvn98IxAzIHRQCmEkMFAAnlNUtwAATNAAAAAElFTkSuQmCC) repeat;
@@ -999,10 +1018,7 @@ a:hover, a:active {
 }
 
 h1.entry-title {
-	margin-left: 2%;
-	margin-right: 2%;
-	font-size: 36px;
-	font-weight: 200;
+
 }
 
 .post {
