@@ -25,7 +25,6 @@
 				<div class="entry-meta">
 					<?php
 					analysis_posted_on();
-					analysis_posted_by();
 					?>
 				</div><!-- .entry-meta -->
 
