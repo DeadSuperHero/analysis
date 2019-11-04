@@ -946,6 +946,17 @@ a:hover, a:active {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQImWPYsXnR/yvn98IxAzIHRQCmEkMFAAnlNUtwAATNAAAAAElFTkSuQmCC) repeat;
 }
 
+.mks_author_widget img {
+    float: none;
+    margin: 0;
+		border-radius: 6em;
+}
+
+.mks_author_widget {
+    margin: 0;
+    text-align: center;
+}
+
 .entry-content {
 	padding: 1em;
 }
