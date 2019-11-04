@@ -957,6 +957,27 @@ a:hover, a:active {
     text-align: center;
 }
 
+.post-tags {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.post-tags a {
+	background: #aaa;
+	padding: 5px;
+	border-radius: 5px;
+	color: #ececec;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+.post-tags a:hover {
+	background: #7d7d7d;
+	color: #fff;
+	text-decoration: none;
+}
+
 .mks_author_widget p {
 	font-size: 14px;
 }
