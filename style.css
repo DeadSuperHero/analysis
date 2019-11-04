@@ -957,6 +957,10 @@ a:hover, a:active {
     text-align: center;
 }
 
+.mks_author_widget p {
+	font-size: 14px;
+}
+
 .entry-content {
 	padding: 1em;
 }
