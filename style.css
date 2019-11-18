@@ -783,6 +783,10 @@ a:hover, a:active {
 		overflow: hidden;
 	}
 
+	.article-begin .post-thumbnail img {
+		transition: transform 0.5s ease;
+	}
+
 	.article-begin .post-thumbnail img:hover, .article-begin .post-thumbnail:hover {
 		transform: scale(1.1);
 		transition: transform 0.5s ease;
@@ -995,6 +999,7 @@ a:hover, a:active {
 .article-begin {
 	z-index: 0;
 	position: relative;
+	overflow: hidden;
 }
 
 #content {
