@@ -756,7 +756,7 @@ a:hover, a:active {
 		margin-left: 10% !important;
 	}
 
-	.entry-meta {
+	.article-begin .entry-meta {
 		position: absolute;
 		bottom: 0px;
 		left: 0px;
@@ -778,17 +778,17 @@ a:hover, a:active {
 		vertical-align: top;
 	}
 
-	.post-thumbnail {
+	.article-begin .post-thumbnail {
 		max-height: 20em;
 		overflow: hidden;
 	}
 
-	.posted-on a {
+	.article-begin .posted-on a {
 		font-weight: 600;
 		color: #fff;
 	}
 
-	h1.entry-title {
+	.article-begin h1.entry-title {
 		margin-left: 15px;
 		font-size: 60px;
 		font-weight: 200;
