@@ -783,6 +783,10 @@ a:hover, a:active {
 		overflow: hidden;
 	}
 
+	.article-begin .post-thumbnail img:hover, .article-begin .post-thumbnail:hover {
+		transform: scale(1.1);
+	}
+
 	.article-begin .posted-on a {
 		font-weight: 600;
 		color: #fff;
