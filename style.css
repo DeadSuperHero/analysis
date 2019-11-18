@@ -758,7 +758,7 @@ a:hover, a:active {
 
 	.entry-meta {
 		position: absolute;
-		bottom: 6px;
+		bottom: 0px;
 		left: 0px;
 		background: #716e6e87;
 		padding: 10px;
@@ -776,6 +776,16 @@ a:hover, a:active {
 		width: 20%;
 		display: inline-block;
 		vertical-align: top;
+	}
+
+	.post-thumbnail {
+		max-height: 20em;
+		overflow: hidden;
+	}
+
+	.posted-on a {
+		font-weight: 600;
+		color: #fff;
 	}
 
 	h1.entry-title {
