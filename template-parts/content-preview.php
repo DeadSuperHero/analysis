@@ -31,7 +31,7 @@
 							analysis_posted_on();
 							?>
 
-							<?php the_tags(): ?>
+							<?php the_tags(); ?>
 						</div><!-- .entry-meta -->
 				</div>
 
