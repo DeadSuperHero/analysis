@@ -28,6 +28,10 @@
 							<?php
 							analysis_posted_on();
 							?>
+
+							<span class="category-list">
+								<?php analysis_category_list(); ?>
+							</span>
 						</div><!-- .entry-meta -->
 				</div>
 
