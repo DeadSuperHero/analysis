@@ -1085,13 +1085,14 @@ aside#secondary {
 
 span.tags-links a {
 	background: #b3b1b1;
-	padding: 5px;
+	padding: 3px;
 	border-radius: 4px;
 	text-decoration: none;
 	font-weight: 800;
 	color: #fff;
 	margin: 2px;
 	border: 1px solid #7d7d7d;
+	font-size: 13px;
 }
 
 /*--------------------------------------------------------------
