@@ -33,7 +33,7 @@
 
 							<span class="category-list">
 								<?php analysis_category_list(); ?>
-						</span>
+							</span>
 
 						</div><!-- .entry-meta -->
 				</div>
@@ -42,10 +42,11 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
+			<?php the_excerpt(); ?>
+
 			<span class="tags-list">
 				<?php analysis_tags_list(); ?>
-		</span>
-			<?php the_excerpt(); ?>
+			</span>
 
 		</div><!-- .entry-content -->
 	</div>
