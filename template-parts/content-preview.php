@@ -30,9 +30,11 @@
 							<?php
 							analysis_posted_on();
 							?>
-							<span class="tags-list">
-								<?php the_tags(); ?>
+
+							<span class="category-list">
+								<?php the_category(); ?>
 						</span>
+
 						</div><!-- .entry-meta -->
 				</div>
 
@@ -40,7 +42,9 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
-
+			<span class="tags-list">
+				<?php the_tags(); ?>
+		</span>
 			<?php the_excerpt(); ?>
 
 		</div><!-- .entry-content -->
