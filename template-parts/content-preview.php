@@ -30,8 +30,9 @@
 							<?php
 							analysis_posted_on();
 							?>
-
-							<?php the_tags(); ?>
+							<span class="tags-list">
+								<?php the_tags(); ?>
+						</span>
 						</div><!-- .entry-meta -->
 				</div>
 
