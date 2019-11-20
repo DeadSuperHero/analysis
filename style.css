@@ -760,7 +760,7 @@ a:hover, a:active {
 		position: absolute;
 		bottom: 0px;
 		left: 0px;
-		background: #716e6e87;
+		background: #09090987;
 		padding: 10px;
 		color: #fff;
 		width: 100%;
@@ -781,10 +781,12 @@ a:hover, a:active {
 	.article-begin .post-thumbnail {
 		max-height: 20em;
 		overflow: hidden;
+		background: #000;
 	}
 
 	.article-begin .post-thumbnail img {
 		transition: transform 2s ease;
+		opacity: 0.8;
 	}
 
 	.article-begin .post-thumbnail img:hover, .article-begin .post-thumbnail:hover {
