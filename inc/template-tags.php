@@ -63,6 +63,7 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
  				/* translators: 1: list of categories. */
  				printf( '<span class="cat-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 			}
+		}
 	 }
 
 	 function analysis_tags_list() {
@@ -72,6 +73,7 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
 				 /* translators: 1: list of tags. */
 				 printf( '<span class="tags-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 			 }
+		 }
 	 }
 
 	function analysis_entry_footer() {
