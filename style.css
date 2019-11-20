@@ -786,6 +786,7 @@ a:hover, a:active {
 
 	h1.entry-title a {
 		color: #fff;
+		text-decoration: none;
 	}
 
 	.article-begin .post-thumbnail img {
