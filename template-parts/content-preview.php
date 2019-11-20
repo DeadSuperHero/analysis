@@ -14,7 +14,9 @@
 		<header class="entry-header">
 
 				<div class="article-begin">
-					<?php analysis_post_thumbnail(); ?>
+					<div class="post-thumbnail">
+						<?php analysis_post_thumbnail(); ?>
+					</div>
 					<?php
 					if ( is_singular() ) :
 						the_title( '<h1 class="entry-title">', '</h1>' );
