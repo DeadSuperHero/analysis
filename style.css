@@ -766,6 +766,10 @@ a:hover, a:active {
 		width: 100%;
 	}
 
+	span.category-list {
+		float: right;
+	}
+
 	#primary.content-area {
 		width: 70%;
 		display: inline-block;
