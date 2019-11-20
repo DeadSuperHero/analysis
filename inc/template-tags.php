@@ -55,6 +55,24 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
 	/**
 	 * Prints HTML with meta information for the categories, tags and comments.
 	 */
+
+	 fucntion analysis_category_list() {
+		 if ( 'post' === get_post_type() ) {
+			 $categories_list = get_the_category_list( esc_html__( ', ', 'analysis' ) );
+			 if ( $categories_list ) {
+ 				/* translators: 1: list of categories. */
+ 				printf( '<span class="cat-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+	 }
+
+	 function analysis_tags_list() {
+		 if ( 'post' === get_post_type() ) {
+			 $tags_list = get_the_tag_list( '', esc_html_x( ' ', 'list item separator', 'analysis' ) );
+			 if ( $tags_list ) {
+				 /* translators: 1: list of tags. */
+				 printf( '<span class="tags-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+			 }
+	 }
+
 	function analysis_entry_footer() {
 		// Hide category and tag text for pages.
 		if ( 'post' === get_post_type() ) {

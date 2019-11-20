@@ -32,7 +32,7 @@
 							?>
 
 							<span class="category-list">
-								<?php the_category(); ?>
+								<?php analysis_category_list(); ?>
 						</span>
 
 						</div><!-- .entry-meta -->
@@ -43,7 +43,7 @@
 
 		<div class="entry-content">
 			<span class="tags-list">
-				<?php analysis_entry_footer(); ?>
+				<?php analysis_tags_list(); ?>
 		</span>
 			<?php the_excerpt(); ?>
 
