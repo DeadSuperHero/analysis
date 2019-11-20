@@ -62,6 +62,7 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
 			 if ( $categories_list ) {
  				/* translators: 1: list of categories. */
  				printf( '<span class="cat-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			}
 	 }
 
 	 function analysis_tags_list() {
