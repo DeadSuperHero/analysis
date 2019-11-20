@@ -33,5 +33,9 @@
 
 			<?php endif; ?>
 		</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<?php the_excerpt() { ?>
+		</div><!-- .entry-content -->
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
