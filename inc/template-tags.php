@@ -56,7 +56,7 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
 	 * Prints HTML with meta information for the categories, tags and comments.
 	 */
 
-	 fucntion analysis_category_list() {
+	 function analysis_category_list() {
 		 if ( 'post' === get_post_type() ) {
 			 $categories_list = get_the_category_list( esc_html__( ', ', 'analysis' ) );
 			 if ( $categories_list ) {
