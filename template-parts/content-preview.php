@@ -43,7 +43,7 @@
 
 		<div class="entry-content">
 			<span class="tags-list">
-				<?php the_tags(); ?>
+				<?php analysis_entry_footer(); ?>
 		</span>
 			<?php the_excerpt(); ?>
 
