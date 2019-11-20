@@ -784,6 +784,10 @@ a:hover, a:active {
 		background: #000;
 	}
 
+	.article-begin .post-thumbnail a {
+		color: #fff;
+	}
+
 	.article-begin .post-thumbnail img {
 		transition: transform 2s ease;
 		opacity: 0.8;
