@@ -60,7 +60,23 @@
 			?>
 
 			<div class="author-meta">
-				<?php analysis_author_box(); ?>
+				<div class="post author-wrap">
+					<itemscope itemprop="image" alt="Photo of <?php the_author_meta( 'display_name' ); ?>">
+						<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); } ?>
+						<h5 class="vcard author" itemprop="url" rel="author">
+							<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="fn" itemprop="name">
+								<itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<?php the_author_meta( 'display_name' ); ?></a>
+								<?php echo get_the_author_meta('twitter'); ?></h5>
+								<?php the_author_meta('description') ?>
+								<class="post-author-links">
+
+								<?php if (get_the_author_meta('twitter') != ""): ?>
+									<i class="fa fa-twitter"></i></a>
+									<a class=”author-link t” title=”Follow on Twitter” href=”https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>” target="_blank">
+								<?php endif; ?>
+
+				</div>
 			</div>
 
 			<footer class="entry-footer">
