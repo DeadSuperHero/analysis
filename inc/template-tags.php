@@ -30,7 +30,7 @@ if ( ! function_exists( 'analysis_posted_on' ) ) :
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
-		echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
+		echo '<span class="posted-on">' . '<i class="fa fa-clock-o" aria-hidden="true"></i>' . $posted_on . '</span>'; // WPCS: XSS OK.
 
 	}
 endif;
@@ -61,7 +61,7 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
 			 $categories_list = get_the_category_list( esc_html__( ', ', 'analysis' ) );
 			 if ( $categories_list ) {
  				/* translators: 1: list of categories. */
- 				printf( '<span class="cat-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+ 				printf( '<span class="cat-links">' . '<i class="fa fa-folder" aria-hidden="true"></i>' . esc_html__( '%1$s', 'analysis' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 			}
 		}
 	 }
