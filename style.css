@@ -1038,6 +1038,7 @@ h1.entry-title a {
 
 .entry-meta a {
 	color: #fff;
+	text-decoration: none;
 }
 
 #content {
