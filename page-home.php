@@ -17,7 +17,19 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<p>If you're seeing this, that means you're on the home page.</p>
+			<div class="jumbotron">
+				<h1>Sean Tilley</h1>
+				<p class="lead">Obviously this site is under construction.</p>
+				<hr></hr>
+				<p>Sorry about all this placeholder content. I'm still building everything.</p>
+				<button class="primary">It's OK</button>
+			</div>
+
+			<div id="recent-updates">
+				<div id="latest-status">
+					<p>More fake stuff here.</p>
+				</div>
+			</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
