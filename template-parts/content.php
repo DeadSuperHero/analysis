@@ -60,7 +60,6 @@
 			?>
 
 			<div class="author-meta">
-				<div class="post author-wrap">
 					<itemscope itemprop="image" alt="Photo of <?php the_author_meta( 'display_name' ); ?>">
 						<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); } ?>
 						<h5 class="vcard author" itemprop="url" rel="author">
@@ -75,8 +74,6 @@
 									<i class="fa fa-twitter"></i></a>
 									<a class=”author-link t” title=”Follow on Twitter” href=”https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>” target="_blank">
 								<?php endif; ?>
-
-				</div>
 			</div>
 
 			<footer class="entry-footer">
