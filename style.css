@@ -755,7 +755,7 @@ a:hover, a:active {
 		padding-top: 6em;
 	}
 
-	.post, .page {
+	.post {
 		max-width: 70%;
 		margin-left: 10% !important;
 	}
