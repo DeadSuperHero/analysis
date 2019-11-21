@@ -59,6 +59,10 @@
 			) );
 			?>
 
+			<div class="author-meta">
+				<?php the_author_meta(); ?>
+			</div>
+
 			<footer class="entry-footer">
 						<?php
 							comments_template();
