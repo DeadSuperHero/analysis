@@ -815,6 +815,11 @@ a:hover, a:active {
 		text-decoration: none;
 	}
 
+	.article-begin h1.entry-title a {
+		text-decoration: none;
+		color: #fff;
+	}
+
 }
 
 @media screen and (max-width: 530px) {
@@ -837,13 +842,12 @@ a:hover, a:active {
 
 		.entry-meta {
 			position: absolute;
-			top: 17em;
-			left: 0em;
-			background: #00000087;
+			bottom: 6px;
+			left: 0px;
+			background: #09090987;
 			padding: 10px;
 			color: #fff;
-			border-radius: 5px;
-			margin-left: 1em;
+			width: 100%;
 		}
 
     .post, .page {
