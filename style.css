@@ -386,6 +386,25 @@ template {
 	display: none;
 }
 
+
+/*--------------------------------------------------------------
+# FakeStrap - Bullshit pretend bootstrap
+----------------------------------------------------------------*/
+.jumbotron {
+	background: #ddd;
+	margin: auto;
+	position: relative;
+	padding: 10px;
+	max-width: 50%;
+}
+
+button.primary {
+	background: #197ea6;
+	color: #fff;
+	border: #147095;
+	font-size: 15px;
+}
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
