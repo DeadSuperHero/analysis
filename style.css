@@ -790,6 +790,7 @@ a:hover, a:active {
 		max-height: 20em;
 		overflow: hidden;
 		background: #000;
+		min-height: 20em;
 	}
 
 	.article-begin .post-thumbnail img {
