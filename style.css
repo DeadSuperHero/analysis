@@ -850,6 +850,10 @@ a:hover, a:active {
 			width: 100%;
 		}
 
+		.entry-meta a {
+			color: #fff;
+		}
+
 		span.cat-links {
 			float: right;
 		}
