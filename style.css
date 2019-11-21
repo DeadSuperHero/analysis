@@ -788,11 +788,6 @@ a:hover, a:active {
 		background: #000;
 	}
 
-	h1.entry-title a {
-		color: #fff;
-		text-decoration: none;
-	}
-
 	.article-begin .post-thumbnail img {
 		transition: transform 2s ease;
 		opacity: 0.8;
@@ -832,6 +827,11 @@ a:hover, a:active {
 			color: #fff;
 			max-width: 90%;
 			line-height: 45px;
+			text-decoration: none;
+		}
+
+		h1.entry-title a {
+			color: #fff;
 			text-decoration: none;
 		}
 
@@ -1008,6 +1008,11 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+h1.entry-title a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .article-begin {
 	z-index: 0;
 	position: relative;
