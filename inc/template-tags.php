@@ -71,7 +71,7 @@ if ( ! function_exists( 'analysis_entry_footer' ) ) :
 			 $tags_list = get_the_tag_list( '', esc_html_x( ' ', 'list item separator', 'analysis' ) );
 			 if ( $tags_list ) {
 				 /* translators: 1: list of tags. */
-				 printf( '<span class="tags-links">' . esc_html__( '%1$s', 'analysis' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				 printf( '<span class="tags-links">' . '<i class="fa fa-tags" aria-hidden="true"></i>' . esc_html__( '%1$s', 'analysis' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 			 }
 		 }
 	 }
