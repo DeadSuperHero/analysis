@@ -42,11 +42,10 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			<?php the_excerpt(); ?>
-
 			<span class="tags-list">
 				<?php analysis_tags_list(); ?>
 			</span>
+			<?php the_excerpt(); ?>
 
 		</div><!-- .entry-content -->
 	</div>

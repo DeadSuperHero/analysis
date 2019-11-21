@@ -39,6 +39,10 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
+			<span class="tags-list">
+				<?php analysis_tags_list(); ?>
+			</span>
+
 			<?php
 			the_content( sprintf(
 				wp_kses(
