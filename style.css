@@ -859,10 +859,6 @@ a:hover, a:active {
 			width: 100%;
 		}
 
-		.entry-meta a {
-			color: #fff;
-		}
-
 		span.cat-links {
 			float: right;
 		}
@@ -1038,6 +1034,10 @@ h1.entry-title a {
 	z-index: 0;
 	position: relative;
 	overflow: hidden;
+}
+
+.entry-meta a {
+	color: #fff;
 }
 
 #content {
