@@ -791,6 +791,7 @@ a:hover, a:active {
 	.article-begin .post-thumbnail img {
 		transition: transform 2s ease;
 		opacity: 0.8;
+		width: 100%;
 	}
 
 	.article-begin .post-thumbnail img:hover, .article-begin .post-thumbnail:hover {
