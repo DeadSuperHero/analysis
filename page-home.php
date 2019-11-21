@@ -23,7 +23,10 @@ get_header();
 				<button class="primary">It's OK</button>
 			</div>
 
+			<hr></hr>
+
 			<div id="recent-updates">
+				<h2>Recent Updates</h2>
 				<div id="latest-status">
 					<p>More fake stuff here.</p>
 				</div>
