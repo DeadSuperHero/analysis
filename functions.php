@@ -116,6 +116,12 @@ function analysis_widgets_init() {
 }
 add_action( 'widgets_init', 'analysis_widgets_init' );
 
+
+function dsh_video_embed() {
+	wp_oembed_add_provider( 'https://video.deadsuperhero.com/video/watch/*', 'https://video.deadsuperhero.com/video/embed/', false );
+}
+add_action(	'init', 'dsh_video_embed' );
+
 /**
  * Enqueue scripts and styles.
  */
