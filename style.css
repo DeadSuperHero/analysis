@@ -850,6 +850,10 @@ a:hover, a:active {
 			width: 100%;
 		}
 
+		span.cat-links {
+			float: right;
+		}
+
     .post, .page {
         max-width: none;
     }
