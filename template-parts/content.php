@@ -61,9 +61,11 @@
 
 			<div class="author-meta">
 					<itemscope itemprop="image" alt="Photo of <?php the_author_meta( 'display_name' ); ?>">
-						<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); } ?>
-						<h3 class="vcard author" itemprop="url" rel="author">
+						<div class="meta-wrap">
+							<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); } ?>
+							<h3 class="vcard author" itemprop="url" rel="author">
 							<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="fn" itemprop="name">
+						</div>
 								<itemprop="author" itemscope itemtype="https://schema.org/Person">
 								<?php the_author_meta( 'display_name' ); ?></a>
 								<?php echo get_the_author_meta('twitter'); ?></h3>
