@@ -1148,6 +1148,29 @@ span.tags-links a {
 	margin: 0 0 1.5em;
 }
 
+.author-meta {
+	border: 1px solid #c4c4c4;
+	padding: 10px;
+	border-radius: 4px;
+	background: #f2f2f2;
+}
+
+.author-meta h3.vcard {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.author-meta .meta-wrap {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.author-meta .meta-wrap img {
+	vertical-align: middle;
+	border-radius: 28em;
+	border: 1px solid #9d9d9d;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
