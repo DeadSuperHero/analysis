@@ -60,7 +60,7 @@
 			?>
 
 			<div class="author-meta">
-				<?php the_author_meta(); ?>
+				<?php analysis_author_box(); ?>
 			</div>
 
 			<footer class="entry-footer">
