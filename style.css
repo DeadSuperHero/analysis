@@ -1062,8 +1062,8 @@ a:hover, a:active {
 .related-gallery img.attachment-thumbnail {
 	width: 6em;
 	height: 6em;
+	object-fit: cover;
 	background-position: center;
-	background-size: cover;
 }
 
 
