@@ -1052,6 +1052,13 @@ a:hover, a:active {
 	margin-right: 3px;
 }
 
+.related-gallery .gallery-caption {
+	display: inline-block;
+	text-align: left;
+	margin-left: 3px;
+	max-width: 60%;
+}
+
 .related-gallery img.attachment-thumbnail {
 	width: 6em;
 	height: 6em;
