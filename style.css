@@ -1046,7 +1046,7 @@ a:hover, a:active {
 	margin-top: 0;
 }
 
-.related-gallery .gallery-icon-landscape {
+.related-gallery .gallery-icon.landscape {
 	display: inline-block;
 	float: left;
 	margin-right: 3px;
