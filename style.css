@@ -1037,6 +1037,29 @@ a:hover, a:active {
 	max-width: 100%;
 }
 
+
+.related-gallery figure.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+	margin-top: 0;
+}
+
+.related-gallery .gallery-icon-landscape {
+	display: inline-block;
+	float: left;
+	margin-right: 3px;
+}
+
+.related-gallery img.attachment-thumbnail {
+	width: 6em;
+	height: 6em;
+	background-position: center;
+	background-size: cover;
+}
+
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
