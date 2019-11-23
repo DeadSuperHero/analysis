@@ -825,7 +825,7 @@ a:hover, a:active {
 
 	.article-begin h1.entry-title {
 		margin-left: 15px;
-		font-size: 60px;
+		font-size: 50px;
 		color: #fff;
 		line-height: 70px;
 		top: 0px;
@@ -1064,6 +1064,10 @@ a:hover, a:active {
 	height: 6em;
 	object-fit: cover;
 	background-position: center;
+}
+
+#rpwwt-recent-posts-widget-with-thumbnails-2 img {
+	object-fit: cover;
 }
 
 
