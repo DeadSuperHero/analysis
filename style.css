@@ -187,6 +187,11 @@ img {
 	border-style: none;
 }
 
+iframe.pixelfed__embed, .pixelfed__embed {
+	display: block;
+	margin: auto;
+}
+
 /* Forms
 	 ========================================================================== */
 
