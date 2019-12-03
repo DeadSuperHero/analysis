@@ -71,16 +71,16 @@
 							<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="fn" itemprop="name">
 								<itemprop="author" itemscope itemtype="https://schema.org/Person">
 								<?php the_author_meta( 'display_name' ); ?></a>
-								<?php echo get_the_author_meta('twitter'); ?></h3>
-								</div>
+							</h3>
+						</div>
 								<span class="author-description">
 									<?php the_author_meta('description') ?>
 								</span>
 								<class="post-author-links">
 
 								<?php if (get_the_author_meta('twitter') != ""): ?>
-									<i class="fa fa-twitter"></i></a>
 									<a class=”author-link t” title=”Follow on Twitter” href=”https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>” target="_blank">
+									<i class="fa fa-twitter"></i></a>
 								<?php endif; ?>
 			</div>
 
