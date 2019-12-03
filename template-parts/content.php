@@ -98,6 +98,11 @@
 									<i class="fa fa-peertube"></i></a>
 								<?php endif; ?>
 
+								<?php if (get_the_author_meta('pixelfed') != ""): ?>
+									<a class="author-link t" title="Follow on Pixelfed" href="<?php echo get_the_author_meta('pixelfed'); ?>" target="_blank">
+									<i class="fa fa-pixelfed"></i></a>
+								<?php endif; ?>
+
 			</div>
 
 			<footer class="entry-footer">
