@@ -1075,6 +1075,15 @@ a:hover, a:active {
 	object-fit: cover;
 }
 
+#rfw_dock-30 h3 .widget-title, #rfw-widget-0 h3 .widget-title {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+#rfw-widget-0 img {
+	width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Content
