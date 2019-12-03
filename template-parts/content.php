@@ -68,11 +68,11 @@
 						<div class="meta-wrap-outer">
 							<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); } ?>
 							<div class="meta-wrap-inner">
-								<h3 class="vcard author" itemprop="url" rel="author">
+								<h1 class="vcard author" itemprop="url" rel="author">
 								<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="fn" itemprop="name">
 									<itemprop="author" itemscope itemtype="https://schema.org/Person">
 									<?php the_author_meta( 'display_name' ); ?></a>
-								</h3>
+								</h1>
 								<div class="post-author-links">
 									<?php if (get_the_author_meta('twitter') != ""): ?>
 										<a class="author-link t" title="Follow on Twitter" href="https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>" target="_blank">

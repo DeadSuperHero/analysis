@@ -1229,20 +1229,36 @@ span.tags-links a {
 	margin-top: 10px;
 }
 
-.author-meta h3.vcard {
+.author-meta h1.vcard {
 	display: inline-block;
-	vertical-align: middle;
+	margin: 0;
 }
 
-.author-meta .meta-wrap {
+.author-meta h1.vcard a {
+	text-decoration: none;
+	color: #5b5a5a;
+}
+
+.author-meta .meta-wrap-outer {
 	text-align: center;
 	margin-bottom: 10px;
 }
 
-.author-meta .meta-wrap img {
-	vertical-align: middle;
+.author-meta .meta-wrap-inner {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.post-author-links i {
+	font-size: 20px;
+}
+
+.author-meta .meta-wrap-outer img {
+	border: 1px solid #a8a8a8;
 	border-radius: 28em;
-	border: 1px solid #9d9d9d;
+	padding: 3px;
+	background: #fff;
+	box-shadow: 1px 1px 3px #a8a8a8;
 }
 
 /*--------------------------------------------------------------
