@@ -72,12 +72,7 @@
 								<itemprop="author" itemscope itemtype="https://schema.org/Person">
 								<?php the_author_meta( 'display_name' ); ?></a>
 							</h3>
-						</div>
-								<span class="author-description">
-									<?php the_author_meta('description') ?>
-								</span>
-								<class="post-author-links">
-
+							<div class="post-author-links">
 								<?php if (get_the_author_meta('twitter') != ""): ?>
 									<a class="author-link t" title="Follow on Twitter" href="https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>" target="_blank">
 									<i class="fa fa-twitter"></i></a>
@@ -107,7 +102,11 @@
 									<a class="author-link t" title="Follow on Pixelfed" href="<?php echo get_the_author_meta('pixelfed'); ?>" target="_blank">
 									<i class="fa fa-pixelfed"></i></a>
 								<?php endif; ?>
-
+							</div>
+						</div>
+								<span class="author-description">
+									<?php the_author_meta('description') ?>
+								</span>
 			</div>
 
 			<footer class="entry-footer">
