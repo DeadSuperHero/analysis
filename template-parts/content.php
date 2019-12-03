@@ -82,6 +82,22 @@
 									<a class="author-link t" title="Follow on Twitter" href="https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>" target="_blank">
 									<i class="fa fa-twitter"></i></a>
 								<?php endif; ?>
+
+								<?php if (get_the_author_meta('linkedin') != ""): ?>
+									<a class="author-link t" title="Follow on LinkedIn" href="https://linkedin.com/in/<?php echo get_the_author_meta('linkedin'); ?>" target="_blank">
+									<i class="fa fa-linkedin"></i></a>
+								<?php endif; ?>
+
+								<?php if (get_the_author_meta('pleroma') != ""): ?>
+									<a class="author-link t" title="Follow on Pleroma" href="<?php echo get_the_author_meta('pleroma'); ?>" target="_blank">
+									<i class="fa fa-pleroma"></i></a>
+								<?php endif; ?>
+
+								<?php if (get_the_author_meta('peertube') != ""): ?>
+									<a class="author-link t" title="Follow on PeerTube" href="<?php echo get_the_author_meta('peertube'); ?>" target="_blank">
+									<i class="fa fa-peertube"></i></a>
+								<?php endif; ?>
+
 			</div>
 
 			<footer class="entry-footer">
