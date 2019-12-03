@@ -83,6 +83,11 @@
 									<i class="fa fa-twitter"></i></a>
 								<?php endif; ?>
 
+								<?php if (get_the_author_meta('diaspora') != ""): ?>
+									<a class="author-link t" title="Follow on Diaspora" href="<?php echo get_the_author_meta('diaspora'); ?>" target="_blank">
+									<i class="fa fa-diaspora"></i></a>
+								<?php endif; ?>
+
 								<?php if (get_the_author_meta('linkedin') != ""): ?>
 									<a class="author-link t" title="Follow on LinkedIn" href="<?php echo get_the_author_meta('linkedin'); ?>" target="_blank">
 									<i class="fa fa-linkedin"></i></a>
