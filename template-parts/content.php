@@ -65,49 +65,51 @@
 
 			<div class="author-meta">
 					<itemscope itemprop="image" alt="Photo of <?php the_author_meta( 'display_name' ); ?>">
-						<div class="meta-wrap">
+						<div class="meta-wrap-outer">
 							<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); } ?>
-							<h3 class="vcard author" itemprop="url" rel="author">
-							<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="fn" itemprop="name">
-								<itemprop="author" itemscope itemtype="https://schema.org/Person">
-								<?php the_author_meta( 'display_name' ); ?></a>
-							</h3>
-							<div class="post-author-links">
-								<?php if (get_the_author_meta('twitter') != ""): ?>
-									<a class="author-link t" title="Follow on Twitter" href="https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>" target="_blank">
-									<i class="fa fa-twitter"></i></a>
-								<?php endif; ?>
+							<div class="meta-wrap-inner">
+								<h3 class="vcard author" itemprop="url" rel="author">
+								<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="fn" itemprop="name">
+									<itemprop="author" itemscope itemtype="https://schema.org/Person">
+									<?php the_author_meta( 'display_name' ); ?></a>
+								</h3>
+								<div class="post-author-links">
+									<?php if (get_the_author_meta('twitter') != ""): ?>
+										<a class="author-link t" title="Follow on Twitter" href="https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>" target="_blank">
+										<i class="fa fa-twitter"></i></a>
+									<?php endif; ?>
 
-								<?php if (get_the_author_meta('diaspora') != ""): ?>
-									<a class="author-link t" title="Follow on Diaspora" href="<?php echo get_the_author_meta('diaspora'); ?>" target="_blank">
-									<i class="fa fa-diaspora"></i></a>
-								<?php endif; ?>
+									<?php if (get_the_author_meta('diaspora') != ""): ?>
+										<a class="author-link t" title="Follow on Diaspora" href="<?php echo get_the_author_meta('diaspora'); ?>" target="_blank">
+										<i class="fa fa-diaspora"></i></a>
+									<?php endif; ?>
 
-								<?php if (get_the_author_meta('linkedin') != ""): ?>
-									<a class="author-link t" title="Follow on LinkedIn" href="<?php echo get_the_author_meta('linkedin'); ?>" target="_blank">
-									<i class="fa fa-linkedin"></i></a>
-								<?php endif; ?>
+									<?php if (get_the_author_meta('linkedin') != ""): ?>
+										<a class="author-link t" title="Follow on LinkedIn" href="<?php echo get_the_author_meta('linkedin'); ?>" target="_blank">
+										<i class="fa fa-linkedin"></i></a>
+									<?php endif; ?>
 
-								<?php if (get_the_author_meta('pleroma') != ""): ?>
-									<a class="author-link t" title="Follow on Pleroma" href="<?php echo get_the_author_meta('pleroma'); ?>" target="_blank">
-									<i class="fa fa-pleroma"></i></a>
-								<?php endif; ?>
+									<?php if (get_the_author_meta('pleroma') != ""): ?>
+										<a class="author-link t" title="Follow on Pleroma" href="<?php echo get_the_author_meta('pleroma'); ?>" target="_blank">
+										<i class="fa fa-pleroma"></i></a>
+									<?php endif; ?>
 
-								<?php if (get_the_author_meta('peertube') != ""): ?>
-									<a class="author-link t" title="Follow on PeerTube" href="<?php echo get_the_author_meta('peertube'); ?>" target="_blank">
-									<i class="fa fa-peertube"></i></a>
-								<?php endif; ?>
+									<?php if (get_the_author_meta('peertube') != ""): ?>
+										<a class="author-link t" title="Follow on PeerTube" href="<?php echo get_the_author_meta('peertube'); ?>" target="_blank">
+										<i class="fa fa-peertube"></i></a>
+									<?php endif; ?>
 
-								<?php if (get_the_author_meta('pixelfed') != ""): ?>
-									<a class="author-link t" title="Follow on Pixelfed" href="<?php echo get_the_author_meta('pixelfed'); ?>" target="_blank">
-									<i class="fa fa-pixelfed"></i></a>
-								<?php endif; ?>
+									<?php if (get_the_author_meta('pixelfed') != ""): ?>
+										<a class="author-link t" title="Follow on Pixelfed" href="<?php echo get_the_author_meta('pixelfed'); ?>" target="_blank">
+										<i class="fa fa-pixelfed"></i></a>
+									<?php endif; ?>
+								</div>
 							</div>
 						</div>
 								<span class="author-description">
 									<?php the_author_meta('description') ?>
 								</span>
-			</div>
+		</div>
 
 			<footer class="entry-footer">
 						<?php
