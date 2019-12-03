@@ -84,7 +84,7 @@
 								<?php endif; ?>
 
 								<?php if (get_the_author_meta('linkedin') != ""): ?>
-									<a class="author-link t" title="Follow on LinkedIn" href="https://linkedin.com/in/<?php echo get_the_author_meta('linkedin'); ?>" target="_blank">
+									<a class="author-link t" title="Follow on LinkedIn" href="<?php echo get_the_author_meta('linkedin'); ?>" target="_blank">
 									<i class="fa fa-linkedin"></i></a>
 								<?php endif; ?>
 
