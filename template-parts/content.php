@@ -79,7 +79,7 @@
 								<class="post-author-links">
 
 								<?php if (get_the_author_meta('twitter') != ""): ?>
-									<a class=”author-link t” title=”Follow on Twitter” href=”https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>” target="_blank">
+									<a class=”author-link t” title=”Follow on Twitter” href=”https://twitter.com/<?php echo get_the_author_meta('twitter'); ?>" target="_blank">
 									<i class="fa fa-twitter"></i></a>
 								<?php endif; ?>
 			</div>
