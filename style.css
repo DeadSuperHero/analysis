@@ -1085,7 +1085,7 @@ a:hover, a:active {
 	width: 100%;
 }
 
-#rfw-widget-0 .widget_dock {
+nav#rfw-widget-0 .widget_dock {
 	width: 100% !important;
 }
 
