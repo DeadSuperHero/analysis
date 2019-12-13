@@ -146,8 +146,8 @@ if ( ! function_exists( 'analysis_post_thumbnail' ) ) :
 
 		if ( is_singular() ) :
 			?>
-
-			<div class="post-thumbnail" style="background: url(<?php echo get_the_post_thumbnail_url( $post_id, 'large' ); ?>) !important;">
+			<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
+			<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important;">
 				?>
 			</div><!-- .post-thumbnail -->
 
