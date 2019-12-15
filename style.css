@@ -809,6 +809,7 @@ a:hover, a:active {
 		width: 23%;
 		display: inline-block;
 		vertical-align: top;
+		margin-left: 10px;
 	}
 
 	.article-begin .post-thumbnail {
