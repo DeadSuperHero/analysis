@@ -2,7 +2,7 @@
 	directory so this file won't be overwritten when the plugin is upgraded. -->
 
 <!-- Start of Post Wrap -->
-<div class="post hentry ivycat-post">
+<div class="post_embed">
 	<!-- This is the output of the post title -->
 	<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
