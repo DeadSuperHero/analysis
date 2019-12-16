@@ -1121,12 +1121,8 @@ h1.entry-title a {
 
 .post_embed {
 	max-width: 30%;
-	background: #fff;
-	border: 1px solid#999;
-	border-radius: 3px;
 	display: inline-block;
 	vertical-align: top;
-	margin: 10px;
 }
 
 #testimonials {
