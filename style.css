@@ -1123,6 +1123,9 @@ h1.entry-title a {
 
 .bx-wrapper {
 	margin: auto;
+	border: none !important;
+	box-shadow: none !important;
+	width: 290px;
 }
 
 .bx_wrapper img {
