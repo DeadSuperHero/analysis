@@ -42,4 +42,6 @@
 
   		</div><!-- .entry-content -->
 </div>
+</div>
+</article><!-- #post-<?php the_ID(); ?> -->
 <!-- // End of Post Wrap -->
