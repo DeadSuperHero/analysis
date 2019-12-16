@@ -3,22 +3,43 @@
 
 <!-- Start of Post Wrap -->
 <div class="post_embed">
-	<!-- This is the output of the post title -->
-	<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  	<div class="article_insert">
+  		<header class="entry-header">
 
-	<!-- This is the output of the excerpt -->
-	<div class="entry-summary">
-    <?php analysis_post_thumbnail(); ?>
-		<?php the_excerpt(); ?>
-	</div>
+  				<div class="article-begin">
+  						<?php analysis_post_thumbnail(); ?>
+  					<?php
+  					if ( is_singular() ) :
+  						the_title( '<h1 class="entry-title">', '</h1>' );
+  					else :
+  						the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
+  					endif;
 
-	<!-- This is the output of the meta information -->
-	<div class="entry-utility">
-		<?php if ( count( get_the_category() ) ) : ?>
-			<span class="cat-links">
-				<?php printf( __( '<span class="%1$s"></span> %2$s', 'twentyten' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>
-			</span>
-		<?php endif; ?>
-	</div>
+  					if ( 'post' === get_post_type() ) :
+  						?>
+  						<div class="entry-meta">
+  							<?php
+  							analysis_posted_on();
+  							?>
+
+  							<span class="category-list">
+  								<?php analysis_category_list(); ?>
+  							</span>
+
+  						</div><!-- .entry-meta -->
+  				</div>
+
+  			<?php endif; ?>
+  		</header><!-- .entry-header -->
+
+  		<div class="entry-content">
+  			<?php the_excerpt(); ?>
+
+  			<span class="tags-list">
+  				<?php analysis_tags_list(); ?>
+  			</span>
+
+  		</div><!-- .entry-content -->
 </div>
 <!-- // End of Post Wrap -->
