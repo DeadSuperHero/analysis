@@ -32,8 +32,8 @@ get_header();
 				</div>
 			</div>
 
-			<h2>Testimonials</h2>				
 			<div id="testimonials">
+				<h2> <i class="fa fa-users" aria-hidden="true"></i> Testimonials</h2>		
 				<?php echo do_shortcode("[pts_slideshow postid='471']") ?>
 			</div>
 
