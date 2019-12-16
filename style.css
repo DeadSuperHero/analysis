@@ -1119,6 +1119,7 @@ h1.entry-title a {
 	background: #fff;
 	border-top: 8px double #5385e3;
 	border-bottom: 8px double #5385e3;
+	padding-top: 2em;
 }
 
 .bx-wrapper {
@@ -1131,6 +1132,7 @@ h1.entry-title a {
 .bx_wrapper img, img.bx_image {
 	border-radius: 28em;
 	width: 190px !important;
+	margin: auto;
 }
 
 h4.bx_title {
