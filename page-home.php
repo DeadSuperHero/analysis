@@ -34,7 +34,7 @@ get_header();
 
 			<div id="testimonials">
 				<h3>Testimonials</h3>
-				<?php echo do_shortcode("[testimonials]") ?>
+				<?php echo do_shortcode("[pts_slideshow postid='471']") ?>
 			</div>
 
 		</main><!-- #main -->
