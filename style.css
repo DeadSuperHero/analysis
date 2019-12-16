@@ -1122,6 +1122,10 @@ h1.entry-title a {
 	padding-top: 2em;
 }
 
+.bx-viewport {
+	height: 280px !important;
+}
+
 .bx-wrapper {
 	margin: auto;
 	border: none !important;
@@ -1131,7 +1135,7 @@ h1.entry-title a {
 
 .bx_wrapper img, img.bx_image {
 	border-radius: 28em;
-	width: 190px !important;
+	width: 130px !important;
 	margin: auto;
 }
 
