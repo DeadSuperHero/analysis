@@ -23,7 +23,7 @@ get_header();
 				<button class="primary">It's OK</button>
 			</div>
 
-			<hr></hr>[testimonials]
+			<hr></hr>
 
 			<div id="recent-updates">
 				<h2>Recent Updates</h2>
@@ -33,6 +33,7 @@ get_header();
 			</div>
 
 			<div id="testimonials">
+				<h3>Testimonials</h3>
 				<?php echo do_shortcode("[testimonials]") ?>
 			</div>
 
