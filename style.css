@@ -1128,7 +1128,7 @@ h1.entry-title a {
 	width: 290px;
 }
 
-.bx_wrapper img {
+.bx_wrapper img, img.bx_image {
 	border-radius: 28em;
 	width: 190px !important;
 }
