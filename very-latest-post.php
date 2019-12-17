@@ -3,7 +3,6 @@
 
 <!-- Start of Post Wrap -->
 <div class="post_embed latest">
-  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   	<div class="article_insert">
   		<header class="entry-header">
 
@@ -38,5 +37,4 @@
   		</div><!-- .entry-content -->
 </div>
 </div>
-</article><!-- #post-<?php the_ID(); ?> -->
 <!-- // End of Post Wrap -->

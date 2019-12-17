@@ -1123,7 +1123,7 @@ h1.entry-title a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: stretch;
+	justify-content: center;
 }
 
 .latest_posts_wrapper {
