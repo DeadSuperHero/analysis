@@ -1149,6 +1149,10 @@ a.action-link {
 	text-align: left;
 }
 
+.post_embed.latest {
+	
+}
+
 .post_embed .post-thumbnail {
 	min-height: 15em !important;
 }
