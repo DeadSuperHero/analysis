@@ -1128,16 +1128,16 @@ h1.entry-title a {
 }
 
 .post_embed .post-thumbnail {
-	min-height: 15em;
+	min-height: 15em !important;
 }
 
 .post_embed .article-begin h1.entry-title {
-	font-size: 40px;
-	line-height: 45px;
+	font-size: 40px !important;
+	line-height: 45px !important;
 }
 
 .post_embed .entry-content {
-	height: 12em;
+	height: 12em !important;
 }
 
 #testimonials {
