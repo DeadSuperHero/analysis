@@ -1115,8 +1115,13 @@ h1.entry-title a {
 	margin-right: 3px;
 }
 
+#recent-updates h2 {
+	text-align: center;
+}
+
 .latest_posts {
-	margin: 2%;
+	margin: auto;
+	text-align: center;
 }
 
 
@@ -1125,6 +1130,7 @@ h1.entry-title a {
 	max-width: 400px;
 	display: inline-block;
 	vertical-align: top;
+	text-align: left;
 }
 
 .post_embed .post-thumbnail {
