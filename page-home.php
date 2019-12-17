@@ -29,12 +29,8 @@ get_header();
 				<h2><i class="fa fa-newspaper-o" aria-hidden="true"></i> From the Blog</h2>
 				<div class="latest_posts_wrapper">
 				<div class="latest_posts">
-					<div id="very-latest-post">
 						<?php echo do_shortcode("[ic_add_posts showposts='1' template='very-latest-post.php']") ?>
-					</div>
-					<div id="remaining-posts">
-					<?php echo do_shortcode("[ic_add_posts showposts='6' offset='1']") ?>
-				</div>
+						<?php echo do_shortcode("[ic_add_posts showposts='6' offset='1']") ?>
 				</div>
 				<a href="https://deadsuperhero.com/blog" class="action-link"><i class="fa fa-chevron-right" aria-hidden="true"></i> Read More</a>
 				</div>
