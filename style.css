@@ -1137,7 +1137,7 @@ h1.entry-title a {
 }
 
 .post_embed .entry-content {
-	height: 12em !important;
+	min-height: 12em !important;
 }
 
 #testimonials {
