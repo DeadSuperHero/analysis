@@ -32,7 +32,9 @@ get_header();
 					<div id="very-latest-post">
 						<?php echo do_shortcode("[ic_add_posts showposts='1' template='very-latest-post.php']") ?>
 					</div>
+					<div id="remaining-posts">
 					<?php echo do_shortcode("[ic_add_posts showposts='6' offset='1']") ?>
+				</div>
 				</div>
 				<a href="https://deadsuperhero.com/blog" class="action-link"><i class="fa fa-chevron-right" aria-hidden="true"></i> Read More</a>
 				</div>
