@@ -35,11 +35,6 @@
 
   		<div class="entry-content">
   			<?php the_excerpt(); ?>
-
-  			<span class="tags-list">
-  				<?php analysis_tags_list(); ?>
-  			</span>
-
   		</div><!-- .entry-content -->
 </div>
 </div>
