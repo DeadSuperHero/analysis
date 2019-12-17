@@ -1147,8 +1147,10 @@ a.action-link {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	background:#fff;
+	background: #fff;
 	margin: 10px;
+	border: 1px solid #797979;
+	border-radius: 5px;
 }
 
 #very-latest-post {
