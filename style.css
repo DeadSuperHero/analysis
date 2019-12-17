@@ -1119,10 +1119,25 @@ h1.entry-title a {
 	margin: 2%;
 }
 
+
+
 .post_embed {
 	max-width: 30%;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.post_embed .post-thumbnail {
+	min-height: 15em;
+}
+
+.post_embed .article-begin h1.entry-title {
+	font-size: 40px;
+	line-height: 45px;
+}
+
+.post_embed .entry-content {
+	height: 12em;
 }
 
 #testimonials {
