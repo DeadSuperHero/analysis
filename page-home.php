@@ -28,10 +28,9 @@ get_header();
 			<div id="recent-updates">
 				<h2>Recent Updates</h2>
 				<div class="latest_posts">
-					<?php echo do_shortcode("[ic_add_posts showposts='3']") ?>
+					<?php echo do_shortcode("[ic_add_posts showposts='6']") ?>
 				</div>
 				<div id="latest-status">
-					<p>More fake stuff here.</p>
 				</div>
 			</div>
 
