@@ -1119,9 +1119,17 @@ h1.entry-title a {
 	text-align: center;
 }
 
+.latest-posts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .latest_posts_wrapper {
 	margin: auto;
 	text-align: center;
+	max-width: 85%;
 }
 
 a.action-link {
