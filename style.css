@@ -1123,7 +1123,7 @@ h1.entry-title a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: stretch;
 }
 
 .latest_posts_wrapper {
@@ -1149,8 +1149,16 @@ a.action-link {
 	text-align: left;
 }
 
-.post_embed.latest {
+#very-latest-post {
+	width: 100%
+}
 
+#remaining-posts {
+	width: 100%;
+}
+
+.post_embed.latest {
+ max-width: none !important;
 }
 
 .post_embed .post-thumbnail {
