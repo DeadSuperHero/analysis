@@ -1141,6 +1141,15 @@ a.action-link {
 }
 
 
+.post_embed.latest .post-thumbnail {
+	min-height: 25em !important;
+}
+
+.post_embed.latest header.entry-header {
+	display: inline-block;
+	width: 50%;
+}
+
 
 .post_embed {
 	max-width: 380px;
@@ -1164,6 +1173,14 @@ a.action-link {
 
 .post_embed.latest {
  max-width: 100% !important;
+ padding: 0;
+ max-height: 25em;
+}
+
+.post_embed.latest .entry-content {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
 }
 
 .post_embed .post-thumbnail {
