@@ -34,6 +34,7 @@
 
   		<div class="entry-content">
         <?php the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' ); ?>
+  			<?php the_excerpt(); ?>
         <div class="entry-meta featured">
           <?php
           analysis_posted_on();
@@ -44,7 +45,6 @@
           </span>
 
         </div><!-- .entry-meta -->
-  			<?php the_excerpt(); ?>
   		</div><!-- .entry-content -->
 </div>
 </div>

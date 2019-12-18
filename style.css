@@ -1177,10 +1177,21 @@ a.action-link {
  max-height: 25em;
 }
 
+.post_embed.latest .entry-content a, .post_embed.latest .entry-meta a {
+	color: #000 !important;
+}
+
+.post_embed.latest h1.entry-title {
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 0;
+}
+
 .post_embed.latest .entry-content {
 	display: inline-block;
-	width: 40%;
+	width: 49%;
 	vertical-align: top;
+	padding: 15px !important;
 }
 
 .post_embed .post-thumbnail {
