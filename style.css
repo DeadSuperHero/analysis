@@ -867,6 +867,13 @@ a:hover, a:active {
  	min-height: 25em !important;
  }
 
+ .post_embed.latest .entry-content {
+ 	display: inline-block;
+ 	width: 49%;
+ 	vertical-align: top;
+ 	padding: 15px !important;
+ }
+
 }
 
 @media screen and (max-width: 530px) {
@@ -953,6 +960,10 @@ a:hover, a:active {
 
 		.post_embed.latest .post-thumbnail {
 			min-height: 15em !important;
+		}
+
+		.post_embed.latest .entry-content {
+			min-height: 12em;
 		}
 
 }
@@ -1222,13 +1233,6 @@ a.action-link {
 	vertical-align: top;
 	display: inline-block;
 	margin-top: 0;
-}
-
-.post_embed.latest .entry-content {
-	display: inline-block;
-	width: 49%;
-	vertical-align: top;
-	padding: 15px !important;
 }
 
 .post_embed .post-thumbnail {
