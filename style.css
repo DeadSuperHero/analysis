@@ -851,6 +851,11 @@ a:hover, a:active {
 	}
 
  /*Responsive Featured Stuff */
+
+	.post_embed.latest {
+		 max-height: 25em;
+	}
+
  .post_embed.latest .article-begin h1.entry-title {
 	 display: none;
  }
@@ -1222,7 +1227,6 @@ a.action-link {
 .post_embed.latest {
  max-width: 100% !important;
  padding: 0;
- max-height: 25em;
 }
 
 .post_embed.latest .entry-content a {
