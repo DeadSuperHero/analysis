@@ -767,6 +767,8 @@ a:hover, a:active {
 	display: block;
 }
 
+/* Responsive for Desktop */
+
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
@@ -812,6 +814,7 @@ a:hover, a:active {
 		margin-left: 10px;
 	}
 
+
 	.article-begin .post-thumbnail {
 		max-height: 20em;
 		overflow: hidden;
@@ -847,9 +850,20 @@ a:hover, a:active {
 		color: #fff;
 	}
 
+ /*Responsive Featured Stuff */
+ .post_embed.latest .article-begin h1.entry-title {
+	 display: none;
+ }
+
+ .post_embed.latest .article-begin .entry-meta {
+	 display: none;
+ }
+
 }
 
 @media screen and (max-width: 530px) {
+
+/* Responsive for Mobile */
 
 		h1.entry-title {
 			margin-left: 20px;
