@@ -952,7 +952,7 @@ a:hover, a:active {
 		}
 
 		.post_embed.latest .post-thumbnail {
-			min-height: 23em !important;
+			min-height: 15em !important;
 		}
 
 }
