@@ -926,6 +926,15 @@ a:hover, a:active {
 			margin: 2%;
 		}
 
+		/*Responsive Featured Stuff */
+		.post_embed.latest .entry-content h1.entry-title {
+			display: none;
+		}
+
+		.post_embed.latest .entry-content .entry-meta {
+			display: none;
+		}
+
 }
 
 .site-main .comment-navigation, .site-main
