@@ -859,6 +859,10 @@ a:hover, a:active {
 	 display: none;
  }
 
+ .post_embed.latest header.entry-header {
+	 width: 50%;
+ }
+
 }
 
 @media screen and (max-width: 530px) {
@@ -932,6 +936,14 @@ a:hover, a:active {
 		}
 
 		.post_embed.latest .entry-content .entry-meta {
+			display: none;
+		}
+
+		.post_embed.latest header.entry-header {
+			width: 100%;
+		}
+
+		.entry-meta.featured {
 			display: none;
 		}
 
@@ -1170,7 +1182,6 @@ a.action-link {
 
 .post_embed.latest header.entry-header {
 	display: inline-block;
-	width: 50%;
 }
 
 
