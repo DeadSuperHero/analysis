@@ -852,6 +852,10 @@ a:hover, a:active {
 
  /*Responsive Featured Stuff */
 
+ 	.post_embed {
+		max-width: 380px;
+	}
+
 	.post_embed.latest {
 		 max-height: 25em;
 	}
@@ -947,6 +951,11 @@ a:hover, a:active {
 		}
 
 		/*Responsive Featured Stuff */
+
+		.post_embed {
+				max-width: 100%;
+		}
+
 		.post_embed.latest .entry-content h1.entry-title {
 			display: none;
 		}
@@ -1205,7 +1214,6 @@ a.action-link {
 
 
 .post_embed {
-	max-width: 380px;
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
