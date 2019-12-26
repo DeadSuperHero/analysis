@@ -1446,13 +1446,32 @@ span.tags-links a {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+
+ol.comment-list {
+	list-style: none;
+}
+
 .comment-content a {
 	word-wrap: break-word;
+}
+
+.comment {
+	border: 1px solid #717171;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 3px;
+}
+
+.comment img.avatar {
+	border-radius: 28em;
+	vertical-align: middle;
 }
 
 .bypostauthor {
 	display: block;
 }
+
+
 
 /*--------------------------------------------------------------
 # Infinite scroll
