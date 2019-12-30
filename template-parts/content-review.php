@@ -22,7 +22,7 @@
 						the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 					endif;
 
-					if ( 'post' === get_post_type() ) :
+					if ( 'review' === get_post_type() ) :
 						?>
 						<div class="entry-meta">
 							<?php
