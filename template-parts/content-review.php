@@ -39,6 +39,7 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
+			<p>If you see this, this is a review</p>
 			<?php
 			the_content( sprintf(
 				wp_kses(
