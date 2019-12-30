@@ -39,7 +39,6 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			<p>If you see this, this is a review</p>
 			<?php
 			the_content( sprintf(
 				wp_kses(
@@ -59,6 +58,11 @@
 				'after'  => '</div>',
 			) );
 			?>
+
+			<div id="review_details">
+				<?php the_field('rating'); ?>
+				<?php the_field('verdict'); ?>
+			</div>
 
 			<span class="tags-list">
 				<?php analysis_tags_list(); ?>
