@@ -1450,7 +1450,26 @@ span.tags-links a {
 	border: 1px solid
 	#b57070;
 	padding: 10px;
-	border-radius: 3px;	
+	border-radius: 3px;
+	text-align: center;
+}
+
+#review_details .rating {
+	display: inline-block;
+	margin: auto;
+	background:#000;
+	color:#fff;
+	padding: 5px 10px 5px 10px;
+	border-radius: 28em;
+	border: 3px solid #ddd;
+	top: -35px;
+	position: relative;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+#review_details .verdict {
+	text-align: left;
 }
 
 
