@@ -59,18 +59,19 @@
 			) );
 			?>
 
-			<div id="review_details">
-				<div class="about_media">
-					<a href="<?php the_field('link_to_media'); ?>">Check It Out!</a>
-					<b>Creator:</b>
-					<a href="<?php the_field('creator_site'); ?>"><?php the_field('creator'); ?></a>
-				</div>
-				<div class="rating">
-					<div class="score">
-						<?php the_field('rating'); ?> / 5
-					</div>
-				</div>
+			<div class="about_media">
+				<a href="<?php the_field('link_to_media'); ?>">Check It Out!</a>
+				<b>Creator:</b>
+				<a href="<?php the_field('creator_site'); ?>"><?php the_field('creator'); ?></a>
+			</div>
 
+			<div class="rating">
+				<div class="score">
+					<?php the_field('rating'); ?> / 5
+				</div>
+			</div>
+
+			<div id="review_details">
 				<div class="compare">
 					<div class="pros">
 						<b>Pros</b>

@@ -1451,17 +1451,16 @@ span.tags-links a {
 	padding: 10px;
 	border-radius: 3px;
 	text-align: center;
-	margin-top: 6em;
+	margin-top: -5em;
 }
 
-#review_details .rating {
-	display: inline-block;
+.rating {
+	display: block;
 	margin: auto;
-	background: #000;
+	background:	#000;
 	color: #fff;
 	border-radius: 10px;
 	border: 3px solid #ddd;
-	margin-top: -4em;
 	position: relative;
 	font-weight: 800;
 	width: 115px;
@@ -1471,17 +1470,41 @@ span.tags-links a {
 
 #review_details .verdict {
 	text-align: left;
-	background: #ddd;
+	background:	#b32121;
 	padding: 10px;
-	border-radius: 3px;
+	color:	#fff;
 }
 
-#review_details .score {
+.score {
 	transform: rotate(-46deg);
 	margin: 15px 0px 0px -3px;
 	font-size: 47px;
 	position: absolute;
 	width: 100%;
+}
+
+#review_details .compare {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+#review_details .pros .cons {
+	padding: 10px;
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+	vertical-align: top;
+	text-align: left;
+}
+
+#review_details .pros {
+	background:#ddd;
+}
+
+#review_details .cons {
+	background: #393939;
+	color: #fff;
 }
 
 
