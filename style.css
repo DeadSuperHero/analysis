@@ -1488,7 +1488,7 @@ span.tags-links a {
 	display: flex;
 }
 
-#review_details .pros .cons {
+#review_details .pros, #review_details .cons {
 	padding: 10px;
 	display: inline-block;
 	width: 50%;
