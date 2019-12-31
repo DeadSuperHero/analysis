@@ -1489,12 +1489,16 @@ span.tags-links a {
 }
 
 #review_details .pros, #review_details .cons {
-	padding: 10px;
+	padding: 0px 10px 0px 0px;
 	display: inline-block;
 	width: 50%;
 	margin: 0;
 	vertical-align: top;
 	text-align: left;
+}
+
+#review_details h3 {
+	text-align: center;
 }
 
 #review_details .pros {

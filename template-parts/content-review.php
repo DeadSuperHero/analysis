@@ -74,11 +74,11 @@
 			<div id="review_details">
 				<div class="compare">
 					<div class="pros">
-						<b>Pros</b>
+						<h3>Pros</h3>
 						<?php the_field('pros'); ?>
 					</div>
 					<div class="cons">
-						<b>Cons</b>
+						<h3>Cons</h3>
 						<?php the_field('cons'); ?>
 					</div>
 				</div>
