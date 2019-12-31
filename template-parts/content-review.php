@@ -74,11 +74,11 @@
 			<div id="review_details">
 				<div class="compare">
 					<div class="pros">
-						<h3>Pros</h3>
+						<h3><i class="fa fa-plus-circle" aria-hidden="true"></i> Pros</h3>
 						<?php the_field('pros'); ?>
 					</div>
 					<div class="cons">
-						<h3>Cons</h3>
+						<h3><i class="fa fa-minus-circle" aria-hidden="true"></i> Cons</h3>
 						<?php the_field('cons'); ?>
 					</div>
 				</div>
