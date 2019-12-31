@@ -60,11 +60,29 @@
 			?>
 
 			<div id="review_details">
+				<div class="about_media">
+					<a href="<?php the_field('link_to_media'); ?>">Check It Out!</a>
+					<b>Creator:</b>
+					<a href="<?php the_field('creator_site'); ?>"><?php the_field('creator'); ?></a>
+				</div>
 				<div class="rating">
 					<div class="score">
-					<?php the_field('rating'); ?> / 5
+						<?php the_field('rating'); ?> / 5
+					</div>
 				</div>
+
+				<div class="compare">
+					<div class="pros">
+						<b>Pros</b>
+						<?php the_field('pros'); ?>
+					</div>
+					<div class="cons">
+						<b>Cons</b>
+						<?php the_field('cons'); ?>
+					</div>
 				</div>
+
+
 				<div class="verdict">
 					<b>Verdict:</b>
 					<?php the_field('verdict'); ?>
