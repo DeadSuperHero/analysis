@@ -1448,7 +1448,6 @@ span.tags-links a {
 --------------------------------------------------------------*/
 #review_details {
 	border: 1px solid #b57070;
-	padding: 10px;
 	border-radius: 3px;
 	text-align: center;
 	margin-top: -5em;
@@ -1500,11 +1499,13 @@ span.tags-links a {
 
 #review_details .pros {
 	background:#ddd;
+	text-align: left;
 }
 
 #review_details .cons {
 	background: #393939;
 	color: #fff;
+	text-align: left;
 }
 
 
