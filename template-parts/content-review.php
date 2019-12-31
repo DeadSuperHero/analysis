@@ -60,8 +60,15 @@
 			?>
 
 			<div id="review_details">
-				<div class="rating"><?php the_field('rating'); ?> / 10</div>
-				<div class="verdict"><?php the_field('verdict'); ?></div>
+				<div class="rating">
+					<div class="score">
+					<?php the_field('rating'); ?> / 5
+				</div>
+				</div>
+				<div class="verdict">
+					<b>Verdict:</b>
+					<?php the_field('verdict'); ?>
+				</div>
 			</div>
 
 			<span class="tags-list">

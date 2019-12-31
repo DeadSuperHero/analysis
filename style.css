@@ -1457,15 +1457,17 @@ span.tags-links a {
 #review_details .rating {
 	display: inline-block;
 	margin: auto;
-	background:#000;
-	color:#fff;
-	padding: 5px 10px 5px 10px;
-	border-radius: 28em;
+	background: #000;
+	color: #fff;
+	border-radius: 10px;
 	border: 3px solid #ddd;
 	top: -35px;
 	position: relative;
 	font-size: 20px;
 	font-weight: 800;
+	width: 100px;
+	height: 100px;
+	transform: rotate(46deg);
 }
 
 #review_details .verdict {
