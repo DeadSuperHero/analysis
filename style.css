@@ -1477,7 +1477,7 @@ span.tags-links a {
 .score {
 	transform: rotate(-46deg);
 	margin: 21px 0px 0px 6px;
-	font-size: 47px;
+	font-size: 35px;
 	position: absolute;
 	width: 100%;
 }
