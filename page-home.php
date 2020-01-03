@@ -36,6 +36,9 @@ get_header();
 				</div>
 				<div id="latest-statuses">
 					<h2><i class="fa fa-globe" aria-hidden="true"></i> From the Web</h2>
+					<div class="status-latest">
+						<?php the_widget( 'WP_Widget_fediembedi' ); ?>
+					</div>
 					<p>Coming soon...</p>
 				</div>
 			</div>
