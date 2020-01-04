@@ -1261,6 +1261,22 @@ a.action-link {
 	min-height: 12em !important;
 }
 
+#latest-statuses {
+	margin-bottom: 2em;
+}
+
+.status_latest {
+	background: #fff;
+	border: 1px solid #9d9999;
+	width: 50%;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.status_latest .status {
+	border-bottom: none !important;
+}
+
 #testimonials {
 	background: #fff;
 	border-top: 8px double #5385e3;
