@@ -39,7 +39,6 @@ get_header();
 					<div class="status-latest">
 						<?php the_widget( 'WP_Widget_fediembedi', 'number=1&exclude_replies=1&exclude_reblogs=1' ); ?>
 					</div>
-					<p>Coming soon...</p>
 				</div>
 			</div>
 
