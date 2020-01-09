@@ -398,6 +398,9 @@ template {
 
 .land-banner {
 	background: #fff;
+	width: 62%;
+	margin: auto;
+	padding: 10px;
 }
 
 .land-banner-left{
@@ -406,6 +409,7 @@ template {
 
 .land-banner-right {
 	max-width: 50%;
+	margin-left: auto;
 }
 
 .land-banner h1 {
@@ -418,6 +422,13 @@ template {
 	letter-spacing: -2px;
 	font-weight: 800;
 	line-height: 44px;
+}
+
+.logomark p {
+	color: #a4a2a2;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 8px;
 }
 
 .jumbotron {

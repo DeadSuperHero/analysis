@@ -28,7 +28,8 @@ get_header();
 						<div class="logo-img">
 						</div>
 						<p>deadsuperhero</p>
-					<h1>Utilizing Weapons of <div class="bigger">Mass Creation</div></h1>
+					<h1 class="smaller">Utilizing Weapons of</h1>
+					<h1 class="bigger">Mass Creation</h1>
 					<p class="lead">Sean Tilley is an artist, musician, writer, programmer, game developer, and comedian exploring Free Software, Creative Commons, and decentralization.</p>
 					<button class="primary">Tell Me More!</button>
 				</div>
