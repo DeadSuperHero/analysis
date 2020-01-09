@@ -393,8 +393,33 @@ template {
 
 
 /*--------------------------------------------------------------
-# FakeStrap - Bullshit pretend bootstrap
+# Landing Page Stuff
 ----------------------------------------------------------------*/
+
+.land-banner {
+	background: #fff;
+}
+
+.land-banner-left{
+	max-width: 50%;
+}
+
+.land-banner-right {
+	max-width: 50%;
+}
+
+.land-banner h1 {
+	font-size: 34px;
+	font-weight: 300;
+}
+
+.land-banner h1.bigger {
+	font-size: 50px;
+	letter-spacing: -2px;
+	font-weight: 800;
+	line-height: 44px;
+}
+
 .jumbotron {
 	background: #ddd;
 	margin: auto;
