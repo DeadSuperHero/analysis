@@ -33,6 +33,7 @@ get_header();
 					<button class="primary">Tell Me More!</button>
 				</div>
 			</div>
+		</div>
 
 			<hr></hr>
 
