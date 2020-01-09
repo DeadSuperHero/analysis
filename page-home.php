@@ -15,12 +15,23 @@
 get_header();
 ?>
 		<main id="main" class="site-main">
-			<div class="jumbotron">
-				<h1>Sean Tilley</h1>
-				<p class="lead">Obviously this site is under construction.</p>
-				<hr></hr>
-				<p>Sorry about all this placeholder content. I'm still building everything.</p>
-				<button class="primary">It's OK</button>
+			<div class="land-banner">
+				<div class="land-banner-left">
+					<div class="foreground">
+					</div>
+					<div class="background">
+					</div>
+				</div>
+
+				<div class="land-banner-right">
+					<div class="logomark">
+						<div class="logo-img">
+						</div>
+						<p>deadsuperhero</p>
+					<h1>Utilizing Weapons of <div class="bigger">Mass Creation</div></h1>
+					<p class="lead">Sean Tilley is an artist, musician, writer, programmer, game developer, and comedian exploring Free Software, Creative Commons, and decentralization.</p>
+					<button class="primary">Tell Me More!</button>
+				</div>
 			</div>
 
 			<hr></hr>
