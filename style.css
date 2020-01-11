@@ -413,7 +413,7 @@ template {
 	background: #000;
 	height: 18em;
 	width: 35em;
-	background: url('../images/banner.jpg');
+	background: url('/images/banner.jpg');
 }
 
 .land-banner-right {
