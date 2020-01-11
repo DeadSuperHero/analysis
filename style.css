@@ -410,10 +410,11 @@ template {
 }
 
 .land-banner-left .background {
-	background: #000;
 	height: 18em;
 	width: 35em;
 	background: url('images/banner.jpg');
+	background-size: cover;
+	background-position: top;
 }
 
 .land-banner-right {
