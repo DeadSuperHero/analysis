@@ -413,6 +413,7 @@ template {
 	background: #000;
 	height: 18em;
 	width: 35em;
+	background: url('../images/banner.jpg');
 }
 
 .land-banner-right {
@@ -435,6 +436,7 @@ template {
 	letter-spacing: -2px;
 	font-weight: 800;
 	line-height: 44px;
+	margin: -5px 0px 10px 0px;
 }
 
 .logomark p {
@@ -450,14 +452,7 @@ template {
 	letter-spacing: 0px;
 	text-transform: revert;
 	font-weight: 300;
-}
-
-.jumbotron {
-	background: #ddd;
-	margin: auto;
-	position: relative;
-	padding: 10px;
-	max-width: 50%;
+	margin-bottom: 15px;
 }
 
 button.primary {
