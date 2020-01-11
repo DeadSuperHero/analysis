@@ -404,17 +404,19 @@ template {
 }
 
 .land-banner-left {
-	max-width: 50%;
+	width: 45%;
 	display: inline-block;
 	vertical-align: top;
 }
 
 .land-banner-left .background {
 	height: 18em;
-	width: 35em;
+	width: 100%;
 	background: url('images/banner.jpg');
 	background-size: cover;
 	background-position: top;
+	margin: 10px;
+	border-radius: 5px;
 }
 
 .land-banner-right {
