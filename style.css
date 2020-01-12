@@ -397,14 +397,13 @@ template {
 ----------------------------------------------------------------*/
 
 .land-banner {
-	background: #fff;
 	margin: auto;
 	padding: 0px;
 }
 
 .land-banner-left {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 .land-banner-left .foreground {
@@ -425,7 +424,6 @@ template {
 	background: url('images/banner.jpg');
 	background-size: cover;
 	background-position: top;
-	margin: 10px;
 	border-radius: 5px;
 	z-index: 4;
 	position: relative;
@@ -434,9 +432,9 @@ template {
 .land-banner-right {
 	margin-left: auto;
 	display: inline-block;
-	vertical-align: top;
-	margin-left: 10px;
-	padding: 10px;
+	vertical-align: middle;
+	background: #fff;
+	border-radius: 5px;
 }
 
 .land-banner h1.smaller {
@@ -925,8 +923,14 @@ a:hover, a:active {
 		width: 45%;
 	}
 
+	.land-banner-left .background {
+		margin: 10px;
+	}
+
 	.land-banner-right {
 		width: 50%;
+		padding: 25px;
+		margin-left: 10px;
 	}
 
  /*Responsive Featured Stuff */
@@ -1070,6 +1074,12 @@ a:hover, a:active {
 
 		.post_embed.latest .entry-content {
 			min-height: 12em;
+		}
+
+		/* Responsive Status Stuff */
+		.status-latest {
+			margin: 10px;
+			width: 100%;
 		}
 
 }
