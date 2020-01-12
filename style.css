@@ -933,6 +933,11 @@ a:hover, a:active {
 		margin-left: 10px;
 	}
 
+	.status-latest {
+		width: 50%;
+		margin: auto;
+	}
+
  /*Responsive Featured Stuff */
 
  	.post_embed {
@@ -1370,8 +1375,6 @@ a.action-link {
 .status-latest {
 	background: #fff;
 	border: 1px solid #9d9999;
-	width: 50%;
-	margin: auto;
 	border-radius: 5px;
 }
 
