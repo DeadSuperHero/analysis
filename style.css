@@ -1049,6 +1049,7 @@ a:hover, a:active {
 
 		.land-banner-right {
 			width: 100%;
+			padding: 10px;
 		}
 
 		/*Responsive Featured Stuff */
@@ -1083,7 +1084,6 @@ a:hover, a:active {
 
 		/* Responsive Status Stuff */
 		.status-latest {
-			margin: 10px;
 			width: 100%;
 		}
 
@@ -1370,6 +1370,7 @@ a.action-link {
 
 #latest-statuses {
 	margin-bottom: 2em;
+	padding: 10px;
 }
 
 .status-latest {
