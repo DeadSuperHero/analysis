@@ -409,6 +409,10 @@ template {
 	vertical-align: top;
 }
 
+.land-banner-left .foreground {
+	background: url('images/sean-head.png');
+}
+
 .land-banner-left .background {
 	height: 18em;
 	width: 100%;
