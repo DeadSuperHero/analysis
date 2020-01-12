@@ -411,6 +411,10 @@ template {
 
 .land-banner-left .foreground {
 	background: url('images/sean-head.png');
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 5px;
 }
 
 .land-banner-left .background {
