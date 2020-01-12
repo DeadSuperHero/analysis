@@ -17,9 +17,9 @@ get_header();
 		<main id="main" class="site-main">
 			<div class="land-banner">
 				<div class="land-banner-left">
-					<div class="foreground">
-					</div>
 					<div class="background">
+						<div class="foreground">
+						</div>
 					</div>
 				</div>
 
