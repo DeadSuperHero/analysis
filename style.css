@@ -398,13 +398,11 @@ template {
 
 .land-banner {
 	background: #fff;
-	width: 62%;
 	margin: auto;
 	padding: 0px;
 }
 
 .land-banner-left {
-	width: 45%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -428,7 +426,6 @@ template {
 }
 
 .land-banner-right {
-	width: 50%;
 	margin-left: auto;
 	display: inline-block;
 	vertical-align: top;
@@ -913,6 +910,19 @@ a:hover, a:active {
 		color: #fff;
 	}
 
+	/* Responsive Landing Page Stuff */
+	.land-banner {
+		width: 62%;
+	}
+
+	.land-banner-left {
+		width: 45%;
+	}
+
+	.land-banner-right {
+		width: 50%;
+	}
+
  /*Responsive Featured Stuff */
 
  	.post_embed {
@@ -1011,6 +1021,19 @@ a:hover, a:active {
 
 		.post-navigation {
 			margin: 2%;
+		}
+
+		/* Responsive Landing Stuff */
+		.land-banner {
+			width: 100%;
+		}
+
+		.land-banner-left {
+			width: 100%;
+		}
+
+		.land-banner-right {
+			width: 100%;
 		}
 
 		/*Responsive Featured Stuff */
