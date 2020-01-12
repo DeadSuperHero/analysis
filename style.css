@@ -420,7 +420,7 @@ template {
 }
 
 .land-banner-right {
-	max-width: 50%;
+	width: 50%;
 	margin-left: auto;
 	display: inline-block;
 	vertical-align: top;
