@@ -50,7 +50,7 @@ get_header();
 				<div id="latest-statuses">
 					<h2><i class="fa fa-globe" aria-hidden="true"></i> From the Web</h2>
 					<div class="status-latest">
-						<?php the_widget( 'WP_widget_fediembedi', 'number=1&exclude_replies=1&exclude_reblogs=1' ); ?>
+						<?php the_widget( 'WP_Widget_fediembedi-mastodon-widget', 'number=1&exclude_replies=1&exclude_reblogs=1' ); ?>
 					</div>
 				</div>
 			</div>
