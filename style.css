@@ -477,6 +477,18 @@ button.primary {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'Minstrel';
+	src: url('fonts/MinstrelPosterNF.eot');
+	src: url('fonts/MinstrelPosterNF.eot?#iefix') format('embedded-opentype'),
+			url('fonts/MinstrelPosterNF.woff2') format('woff2'),
+			url('fonts/MinstrelPosterNF.woff') format('woff'),
+			url('fonts/MinstrelPosterNF.svg#MinstrelPosterNF') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body,
 button,
 input,
@@ -710,14 +722,18 @@ header#masthead {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-image: linear-gradient(#a2a2a2 10%, #848484 90%);
-	box-shadow: 0px 1px 1px #4f4e4e;
 	z-index: 1000;
+	background: #fff;
+	border-bottom: 2px solid #8e8e8e;
 }
 
 .custom-logo-link {
     display: inline-block;
     max-width: 300px;
+}
+
+img.custom-logo {
+	width: 70px;
 }
 
 .site-branding {
@@ -734,12 +750,15 @@ nav#site-navigation {
 }
 
 .main-navigation a {
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 600;
-    margin: 5px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 600;
+	background: #ddd;
+	padding: 2px 10px 2px 10px;
+	border-radius: 15px;
+	margin: 5px;
 }
 
 .main-navigation a:hover {
@@ -817,12 +836,6 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-}
-
-.main-navigation a {
-	display: block;
-	text-decoration: none;
-	color: #fff;
 }
 
 /* Small menu. */
@@ -1266,6 +1279,11 @@ aside#rfw_dock-30 .widget_dock {
 	width: 100% !important;
 }
 
+.status span.display-name {
+	font-size: 15px;
+	font-weight: 800;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -1703,8 +1721,26 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+	vertical-align: middle;
 }
 
+p.site-title {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Minstrel, sans;
+	margin-left: -10px
+}
+
+.site-title a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 30px;
+}
+
+p.site-description {
+	display: none;
+}
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
