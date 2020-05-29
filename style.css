@@ -506,6 +506,11 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+	font-family: Minstrel, sans;
+	color: #535252;
+}
+
 p {
 	margin-bottom: 1.5em;
 }
@@ -1743,6 +1748,7 @@ p.site-title {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000;
+	text-shadow: 2px 2px 0px #fff671, 4px 4px 0px #fd3838;
 }
 
 p.site-description {
