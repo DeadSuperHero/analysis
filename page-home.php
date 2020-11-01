@@ -50,7 +50,7 @@ get_header();
 				<div id="latest-statuses">
 					<h2><i class="fa fa-globe" aria-hidden="true"></i> From the Web</h2>
 					<div class="status-latest">
-						<?php echo do_shortcode("[mastodon number=1&show_header=0&exclude_replies=1&exclude_reblogs=1 ]") ?>
+						<?php echo do_shortcode("[mastodon show_header=0&number=1&exclude_replies=1&exclude_reblogs=1]") ?>
 					</div>
 				</div>
 			</div>
