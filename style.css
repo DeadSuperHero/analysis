@@ -1361,6 +1361,18 @@ a.action-link {
 	border-radius: 5px;
 }
 
+.post_embed .post-thumbnal {
+	filter: grayscale(100%) contrast(40%);
+	transition-property: filter;
+	transition: ease 1s;
+}
+
+.post_embed .post-thumbnal:hover {
+	filter: grayscale(0%) contrast(100%);
+	transition-property: filter;
+	transition: ease 1s;
+}
+
 #very-latest-post {
 	max-width: 100%;
 	background: #fff;
