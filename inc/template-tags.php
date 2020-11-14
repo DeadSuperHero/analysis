@@ -153,7 +153,7 @@ if ( ! function_exists( 'analysis_post_thumbnail' ) ) :
 		<?php else : ?>
 
 		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-			<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>
+			<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'large'); ?>
 			<div class="post-thumbnail" style="background: url(<?php echo $featured_img_url ?>) !important; background-size: cover !important; background-position: center !important; min-height: 23em;">
 			</div><!-- .post-thumbnail -->
 		</a>

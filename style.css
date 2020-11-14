@@ -1383,6 +1383,10 @@ a.action-link {
 	vertical-align: top;
 	display: inline-block;
 	margin-top: 0;
+	font-weight: 800;
+	font-size: 3em;
+	line-height: 55px;
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .post_embed .post-thumbnail {
@@ -1539,6 +1543,17 @@ span.tags-links a {
 .post,
 .page {
 	margin: 0 0 1.5em;
+}
+
+.page {
+	background: #fff;
+	border: 1px solid #9d9999;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.page h1.entry-title {
+	margin-top: 0;
 }
 
 .updated:not(.published) {
