@@ -1532,7 +1532,7 @@ h1.entry-title {
 
 }
 
-.post, .review {
+.post, .review, .short-story {
 	background: #fff;
 	border: 1px solid #7d7b7b;
 	border-radius: 5px;
