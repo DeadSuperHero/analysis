@@ -1044,7 +1044,7 @@ a:hover, a:active {
         max-width: none;
     }
 
-		.short-story .article_insert {
+		article.short-story .article_insert, .short-story {
 			background: #fff;
 			font-family: Times New Roman;
 			font-size: 20px;
